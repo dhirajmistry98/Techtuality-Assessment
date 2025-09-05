@@ -1,0 +1,28 @@
+
+> server@1.0.0 start
+> node server.js
+
+[dotenv@17.2.2] injecting env (4) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+Port 5001 is in use, trying 5002...
+
+🚀 Server running on port 5002
+📱 Environment: development
+🌐 API Base URL: http://localhost:5002/api
+📋 Available endpoints:
+   POST /api/auth/signup   - User registration
+   POST /api/auth/login    - User login
+   GET  /api/auth/me       - Get current user
+   POST /api/tasks         - Create task
+   GET  /api/tasks         - Get all user tasks
+   GET  /api/tasks/:id     - Get specific task
+   PUT  /api/tasks/:id     - Update task
+   DELETE /api/tasks/:id   - Delete task
+
+MongoDB Connected: ac-cxspcfe-shard-00-01.3leuuce.mongodb.net
+2025-09-05T01:10:53.200Z - GET /api/health
+2025-09-05T01:11:31.520Z - POST /api/auth/signup
+2025-09-05T01:11:59.627Z - POST /api/auth/login
+2025-09-05T01:15:06.925Z - GET /api/health
+2025-09-05T01:18:33.477Z - POST /api/auth/login
+2025-09-05T01:18:33.658Z - GET /api/tasks
+2025-09-05T01:18:33.693Z - GET /api/tasks
